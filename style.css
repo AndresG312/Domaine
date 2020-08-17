@@ -1,0 +1,185 @@
+body {
+	background-color: #f7f9f9;
+}
+
+img {
+}
+
+p,
+h2,
+h3 {
+	font-family: 'Vollkorn', serif;
+	font-size: 40px;
+	color: rgb(40, 40, 40);
+	text-align: center;
+	text-shadow: 1px 1px 1px #888888;
+}
+
+.btn {
+	background-color: rgb(40, 40, 40);
+}
+
+.picshadow {
+	border: 1px solid;
+	padding: 5px;
+	box-shadow: 1em 1em 1em #888888;
+}
+
+/*Nav bar colors */
+/* not active */
+.nav-pills .pill-1 .nav-link:not(.active) {
+	background-color: #f7f9f9;
+	color: rgb(40, 40, 40);
+}
+
+.nav-pills .pill-2 .nav-link:not(.active) {
+	background-color: #f7f9f9;
+	color: rgb(40, 40, 40);
+}
+
+.nav-pills .pill-3 .nav-link:not(.active) {
+	background-color: #f7f9f9;
+	color: rgb(40, 40, 40);
+}
+.nav-pills .pill-4 .nav-link:not(.active) {
+	background-color: #f7f9f9;
+	color: rgb(40, 40, 40);
+}
+
+/* active (faded) */
+.nav-pills .pill-1 .nav-link {
+	background-color: #454545;
+	color: whitesmoke;
+}
+
+.nav-pills .pill-2 .nav-link {
+	background-color: #454545;
+	color: whitesmoke;
+}
+
+.nav-pills .pill-3 .nav-link {
+	background-color: #454545;
+	color: whitesmoke;
+}
+.nav-pills .pill-4 .nav-link {
+	background-color: #454545;
+}
+
+/* Jumbtron  */
+
+.jumbotron {
+	background-image: url(../Pier/img/Winepour.jpg);
+	border: .4em solid #454545;
+	position: relative;
+	inline-size: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: whitesmoke;
+}
+
+#jumbo {
+	width: 93%;
+	height: auto;
+	/*	inline-size: auto; */
+	margin: 0 auto;
+	padding-bottom: .8em;
+	position: relative;
+}
+
+#jtitle {
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 6em;
+	font-weight: 140;
+	text-shadow: 4px 4px 4px #454545;
+}
+#ptitle {
+	font-size: 3em;
+	color: whitesmoke;
+	text-shadow: 5px 5px 5px #454545;
+}
+/*content*/
+#first {
+	font-family: 'Vollkorn', serif;
+	text-align: center;
+}
+
+#bottles {
+	width: auto;
+	height: auto;
+}
+
+/*about */
+#aboutme {
+	font-family: 'Vollkorn', serif;
+	font-size: 30px;
+	color: rgb(40, 40, 40);
+	text-align: center;
+}
+/*media  tab */
+.carousel {
+	position: center;
+	height: auto;
+	width: auto;
+	margin: auto;
+}
+
+/* Form */
+.form-group {
+	color: rgb(40, 40, 40);
+}
+
+/*Footer*/
+footer {
+	background-color: #454545;
+	position: relative;
+	bottom: 0;
+}
+
+#logo {
+	width: 27em;
+	height: auto;
+	margin: auto;
+}
+
+#rights {
+	text-color: whitesmoke;
+}
+
+/* Icons */
+
+.fa {
+	padding: 15px;
+	font-size: 30px;
+	width: 80px;
+	height: auto;
+	text-align: center;
+	text-decoration: none;
+	margin: .5em;
+	border-radius: 50%;
+}
+
+.fa:hover {
+	background-color: white;
+	opacity: 0.7;
+}
+
+.fa-facebook {
+	background: #3b5998;
+	color: white;
+}
+
+.fa-instagram {
+	background: #125688;
+	color: white;
+}
+
+.fa-youtube {
+	background: #bb0000;
+	color: white;
+}
+
+.fa-twitter {
+	background: #55acee;
+	color: white;
+}
